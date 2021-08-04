@@ -60,7 +60,10 @@ fun PokemonListScreen(
                     .padding(16.dp)
             ){
                 //TODO:
-            }
+            }//search bar
+
+            Spacer(modifier = Modifier.height(16.dp))
+            PokemonList(navController = navController)
         }
     }
 }
